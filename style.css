@@ -1,0 +1,238 @@
+/* universal section */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* Universal end */
+/* Utilitiy Clasess */
+.h-primary{
+    color: #141c8a;
+    text-align: center;
+}
+
+
+/* Home Section */
+.home{
+    display: flex;
+    width: 100vw;
+    height: 85vh;
+    background-color: #141c8a;
+    margin-bottom: 70px;
+}
+
+.hero-text{
+    width: 485px;
+    height: 230px;
+    color: white;
+    margin-left: 156px;
+    margin-top: 207px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 80px;
+    
+}
+
+.hero-image img{
+    width: 556px;
+    height: 438px;
+    margin-top: 123px;
+    margin-left: 100px;
+    border-radius: 5px;
+}
+.btn{
+    color: white;
+    background-color: #E02C6D;
+    padding: 10px 24px 10px 24px;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: white;
+    color: #141c8a;
+    border: 1px solid #E02C6D;
+    transform: scale(1.1);
+}
+/* Player section start */
+.player-section{
+    background-color: rgb(245, 244, 244);
+    width: 75vw;
+    margin: auto;
+    border-radius: 5px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 18px;
+    margin-left: 15px;
+   
+}
+
+.player{
+    width: 330px;
+    height: 474px;
+    padding: 15px;
+    margin-bottom: 27px;
+    margin-right: 30px;
+    background-color: #ffffff;
+    border: 1px solid white;
+    box-shadow: 0 0 6px 1px rgb(187, 187, 187);
+    border-radius: 5px;
+}
+.player:hover{
+    transform:  scale(1.01);
+    background-color: #e0e2fffa;
+}
+
+.player .player-image img{
+    width: 300px;
+    height: 256px;
+}
+
+.player-info{
+width: 300px;
+height: 154px;
+}
+/* Heilight Section start */
+.heilight{
+    margin-top: 110px;
+   
+    height: 75%;
+}
+
+.copa{
+    display: flex;
+    width: 75%;
+    margin: auto;
+    
+}
+
+.copa-text{
+    height: 569px;
+    width: 309px;
+    width: 100%;
+    margin-right: 66px;
+    
+}
+.copa-text p{
+    margin-bottom: 24px;
+}
+.copa .copa-image img{
+    width: 57px;
+    height: 327px;
+    width: 96%;
+}
+/* Video Section */
+
+
+.videos{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: rgb(245, 245, 255);
+    width: 75vw;
+    margin: auto;
+   
+}
+.video iframe{
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+}
+.video{
+    width: 100%;
+    margin-left: 35px;
+}
+/* contact Section */
+#contact{
+
+    position: relative;
+    background-color: rgba(233, 234, 250, 0.575);
+    opacity: .9;
+    margin-top: 10rem;
+    padding-top: 5rem;
+    
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: .7;
+}
+/*Contact area*/
+#contact-box{
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  padding: 2rem;
+}
+#contact-box p{
+   align-items: center;
+   justify-content: center;
+}
+
+
+#contact-box form{
+  width: 40%;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: .5rem;
+    border-radius: .3rem;
+}
+.contact-btn{
+    color: white;
+    background-color: #141c8a;
+    padding: 10px 24px 10px 24px;
+    font-weight: 900;
+    border-radius: 5px;
+    
+
+}
+.contact-btn:hover{
+    background-color: rgba(12, 82, 148, 0.199);
+    color: #141c8a;
+    border: 1px solid #141c8a;
+    transform: scale(1.1);
+}
+
+/* Footer Section */
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-image img{
+    width: 483px;
+    height: 110px;
+}
+.footer-text{
+    align-items: center;
+}
+.footer-text p{
+    color: rgb(12, 82, 148);
+}
+.footer-text span i{
+    padding: 15px;
+    background-color: rgba(12, 82, 148, 0.096);
+    border: 1px solid #141c8a;
+    border-radius: 50%;
+    margin: 5px;
+}
+.footer-text span i:hover{
+    background-color: #141c8a;
+    color: white;
+    cursor: pointer;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
