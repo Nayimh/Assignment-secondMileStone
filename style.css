@@ -427,7 +427,7 @@ height: 154px;
     .video-section{
         width: 98vw;
         height: 85vh;
-        margin-bottom: 2px;
+        margin-bottom: 15rem;
         margin-top: 18rem;
         border-radius: 5px;
     }
@@ -453,7 +453,7 @@ height: 154px;
     width: 100%;
 }
 #contact{
-    width: 98vw;
+    width: 96vw;
     height: 78vh;
     margin-bottom: 3rem;
     border-radius: 5px;
