@@ -10,6 +10,7 @@
 .h-primary{
     color: #141c8a;
     text-align: center;
+    font-weight: 700;
 }
 
 
@@ -20,6 +21,7 @@
     height: 85vh;
     background-color: #141c8a;
     margin-bottom: 70px;
+    border-radius: 5px;
 }
 
 .hero-text{
@@ -101,17 +103,18 @@ height: 154px;
 .heilight{
     margin: auto;
     margin-top: 110px;
+    margin-bottom: 80px;
     width: 75vw;
-    height: 75%;
-    background-color: rgb(245, 245, 255);
+    height: 57vh;
+    border-radius: 5px;
 
 }
 
 .copa{
     display: flex;
-    width: 100%;
+    width: 98vw;
     margin: auto;
-    
+    background-color: rgba(233, 234, 250, 0.575);
 }
 
 .copa-text{
@@ -120,25 +123,32 @@ height: 154px;
     width: 100%;
     margin-right: 66px;
     margin-top: 50px;
+    margin-left: 5px;
     
 }
 .copa-text p{
+    width: 90%;
     margin-bottom: 24px;
+    text-align: justify;
 }
 .copa .copa-image img{
-    width: 567px;
+    width: 90%;
     height: 427px;
     width: 100%;
+    margin-left: 5px;
 }
 /* Video Section */
 
-
+.video-section{
+    margin-bottom: 1rem;
+    margin-top: 18rem;
+}
 .videos{
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
+   
     padding: 20px;
-    background-color: rgb(245, 245, 255);
+     background-color: rgb(245, 244, 244); 
     width: 75vw;
     margin: auto;
    
@@ -158,8 +168,11 @@ height: 154px;
     position: relative;
     background-color: rgba(233, 234, 250, 0.575);
     opacity: .9;
+    width: 75vw;
+    margin: auto;
     margin-top: 10rem;
     padding-top: 5rem;
+    border-radius: 5px;
     
 }
 #contact::before{
@@ -177,6 +190,7 @@ height: 154px;
   justify-content: center;
   align-items: center; 
   padding: 2rem;
+
 }
 #contact-box p{
    align-items: center;
@@ -230,7 +244,7 @@ height: 154px;
 }
 .footer-text span i{
     padding: 15px;
-    background-color: rgba(12, 82, 148, 0.096);
+    background-color: #e0e2fffa;
     border: 1px solid #141c8a;
     border-radius: 50%;
     margin: 5px;
@@ -241,4 +255,194 @@ height: 154px;
     cursor: pointer;
     border: 1px solid gray;
     border-radius: 50%;
+}
+
+/* Media Queries */
+/* Ipad screen */
+
+@media only screen and (min-width:688px) and (max-width:1200px) {
+    .home{
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+        margin: auto;
+    }
+    .hero-text{
+     width: 285px;
+    height: 130px;
+    color: white;
+    margin-left: 156px;
+    margin-top: 207px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 60px;
+    }
+    .hero-image img{
+    width: 456px;
+    height: 338px;
+    margin-top: 123px;
+    margin-left: 100px;
+    border-radius: 5px;
+    
+    }
+    .player-section{
+        background-color: rgb(245, 244, 244); 
+        width: 85vw;
+        margin-bottom: 25px;
+        border-radius: 5px;
+    }
+     
+    .players{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-top: 18px;
+        margin-left: 15px;
+        
+
+}
+.copa{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5rem;
+    margin-bottom: 7rem;
+    margin: auto;
+
+}
+.video-section{
+    margin-bottom: 1rem;
+    margin-top: 43rem;
+}
+.videos{
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-bottom: 7rem;
+    margin: auto;
+}
+.video{
+    margin-top: 1rem;
+    margin-bottom: 1rem
+}
+#contact-box form{
+    width: 80%;
+  }
+
+
+} 
+
+/* Media Query For MObile Device */
+@media only screen and (min-width:319px) and (max-width:688px) {
+    .home{
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    height: 750px;
+    background-color: #141c8a;
+    margin-bottom: 70px;
+
+    }
+    .home .hero-text{
+        width: 100%;
+        height: 80px;
+        color: white;
+        margin-left: 55px;
+        margin-top: 107px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 60px;
+        }
+
+   .home .hero-image img{
+    width: 95%;
+    height: 308px;
+    margin-top: 223px;
+    margin-left: 10px;
+    border-radius: 5px;
+    }
+    .player-section{
+        width: 97vw;
+        margin-left: 5px;
+    }
+    .player-section .players{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 15px;
+       
+        
+    }
+ .heilight{
+     width: 97vw;
+     height: 50vh;
+     margin-top: 5rem;
+     border-radius: 5px;
+ }
+ 
+    .copa{
+        display: flex;
+        flex-direction: column;
+        width: 98vw;
+        
+        
+    }
+    .copa .copa-text{
+        height: 369px;
+        width: 309px;
+        width: 100%;
+        margin-right: 66px;
+        margin-top: 10px;
+        margin-left: 5px;
+        
+    }
+    .copa-text p{
+        margin-bottom: 14px;
+    }
+    .copa .copa-image img{
+        width: 97%;
+        height: 248px;
+        margin-right: 10px;
+    }
+    .video-section{
+        width: 98vw;
+        height: 85vh;
+        margin-bottom: 2px;
+        margin-top: 18rem;
+        border-radius: 5px;
+    }
+    .videos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+         background-color: rgb(245, 244, 244); 
+        width: 98vw;
+        margin: auto;
+       
+    }
+    .video{
+        width: 98%;
+        margin-left: 1px;
+        margin-bottom: 1rem;
+    }
+    
+.video iframe{
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    width: 100%;
+}
+#contact{
+    width: 98vw;
+    height: 75vh;
+    margin-bottom: 3rem;
+    border-radius: 5px;
+}
+
+#contact-box form{
+    width: 85%;
+    margin-top: 0px;
+  }
+  .footer-image img{
+    width: 182px;
+    height: 50px;
+}
+
 }
