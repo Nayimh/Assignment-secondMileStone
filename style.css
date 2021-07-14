@@ -115,6 +115,7 @@ height: 154px;
     width: 98%;
     margin: auto;
     background-color: rgba(233, 234, 250, 0.575);
+    border-radius: 5px;
 }
 
 .copa-text{
@@ -132,10 +133,10 @@ height: 154px;
     text-align: justify;
 }
 .copa .copa-image img{
-    width: 50%;
     height: 427px;
-    width: 100%;
+    width: 99%;
     margin-left: 5px;
+    border-radius: 5px;
 }
 /* Video Section */
 
@@ -146,7 +147,7 @@ height: 154px;
 .videos{
     display: flex;
     justify-content: center;
-   
+    border-radius: 5px;
     padding: 20px;
      background-color: rgb(245, 244, 244); 
     width: 75vw;
@@ -171,7 +172,7 @@ height: 154px;
     width: 75vw;
     margin: auto;
     margin-top: 10rem;
-    padding-top: 5rem;
+    padding-top: 2rem;
     border-radius: 5px;
     
 }
@@ -380,7 +381,7 @@ height: 154px;
     .copa{
         display: flex;
         flex-direction: column;
-        width: 98vw;
+        width: 99vw;
         
         
     }
@@ -431,7 +432,7 @@ height: 154px;
 }
 #contact{
     width: 98vw;
-    height: 75vh;
+    height: 78vh;
     margin-bottom: 3rem;
     border-radius: 5px;
 }
