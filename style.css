@@ -42,6 +42,10 @@
     margin-top: 123px;
     margin-left: 100px;
     border-radius: 5px;
+    cursor: pointer;
+}
+.hero-image img:hover{
+    transform: matrix(-1,0,0,1,0,0);
 }
 .btn{
     color: white;
@@ -51,6 +55,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 5px;
+    cursor: pointer;
 }
 .btn:hover{
     background-color: white;
@@ -84,6 +89,7 @@
     border: 1px solid white;
     box-shadow: 0 0 6px 1px rgb(187, 187, 187);
     border-radius: 5px;
+    cursor: pointer;
 }
 .player:hover{
     transform:  scale(1.01);
@@ -214,6 +220,7 @@ height: 154px;
     padding: 10px 24px 10px 24px;
     font-weight: 900;
     border-radius: 5px;
+    cursor: pointer;
     
 
 }
@@ -263,8 +270,9 @@ height: 154px;
 
 @media only screen and (min-width:688px) and (max-width:1200px) {
     .home{
-        width: 100vw;
-        height: 100vh;
+        width: 95vw;
+        height: 80vh;
+        margin-bottom: 30px;
         flex-direction: column;
         margin: auto;
     }
@@ -273,7 +281,8 @@ height: 154px;
     height: 130px;
     color: white;
     margin-left: 156px;
-    margin-top: 207px;
+    margin-top: 150px;
+    margin-bottom: 20px;
     font-weight: 400;
     font-size: 24px;
     line-height: 60px;
@@ -288,8 +297,9 @@ height: 154px;
     }
     .player-section{
         background-color: rgb(245, 244, 244); 
-        width: 85vw;
+        width: 90vw;
         margin-bottom: 25px;
+        margin-left: 25px;
         border-radius: 5px;
     }
      
@@ -298,18 +308,24 @@ height: 154px;
         grid-template-columns: repeat(2, 1fr);
         padding-top: 18px;
         margin-left: 15px;
-        
+        width: 90%;
 
+}
+.heilight{
+    width: 97vw;
 }
 .copa{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 90%;
     margin-top: 5rem;
     margin-bottom: 7rem;
     margin: auto;
-
+    
+  
+    
 }
+
 .video-section{
     margin-bottom: 1rem;
     margin-top: 43rem;
@@ -334,14 +350,14 @@ height: 154px;
 /* Media Query For MObile Device */
 @media only screen and (min-width:319px) and (max-width:688px) {
     .home{
-    display: flex;
     flex-direction: column;
-    width: 370px;
+    width: 98vw;
     height: 750px;
-    background-color: #141c8a;
+    background-color: #141c8a; 
     margin-bottom: 70px;
 
     }
+    
     .home .hero-text{
         width: 100%;
         height: 80px;
@@ -360,8 +376,11 @@ height: 154px;
     margin-left: 10px;
     border-radius: 5px;
     }
+    .home .hero-image img:hover{
+        transform: matrix(-1,0,0,1,0,0);
+    }
     .player-section{
-        width: 97vw;
+        width: 98vw;
         margin-left: 5px;
     }
     .player-section .players{
@@ -381,7 +400,9 @@ height: 154px;
     .copa{
         display: flex;
         flex-direction: column;
-        width: 99vw;
+        width: 98%;
+        margin: auto;
+       
         
         
     }
@@ -391,9 +412,10 @@ height: 154px;
         width: 100%;
         margin-right: 66px;
         margin-top: 10px;
-        margin-left: 5px;
+        margin-left: 20px;
         
     }
+
     .copa-text p{
         margin-bottom: 14px;
     }
@@ -414,7 +436,7 @@ height: 154px;
         flex-direction: column;
         justify-content: center;
          background-color: rgb(245, 244, 244); 
-        width: 98vw;
+        width: 98%;
         margin: auto;
        
     }
@@ -438,7 +460,7 @@ height: 154px;
 }
 
 #contact-box form{
-    width: 85%;
+    width: 98%;
     margin-top: 0px;
   }
   .footer-image img{
