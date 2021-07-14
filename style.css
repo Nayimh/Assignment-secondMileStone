@@ -61,6 +61,7 @@
     background-color: rgb(245, 244, 244);
     width: 75vw;
     margin: auto;
+    margin-bottom: 25px;
     border-radius: 5px;
 }
 .players{
@@ -98,14 +99,17 @@ height: 154px;
 }
 /* Heilight Section start */
 .heilight{
+    margin: auto;
     margin-top: 110px;
-   
+    width: 75vw;
     height: 75%;
+    background-color: rgb(245, 245, 255);
+
 }
 
 .copa{
     display: flex;
-    width: 75%;
+    width: 100%;
     margin: auto;
     
 }
@@ -115,15 +119,16 @@ height: 154px;
     width: 309px;
     width: 100%;
     margin-right: 66px;
+    margin-top: 50px;
     
 }
 .copa-text p{
     margin-bottom: 24px;
 }
 .copa .copa-image img{
-    width: 57px;
-    height: 327px;
-    width: 96%;
+    width: 567px;
+    height: 427px;
+    width: 100%;
 }
 /* Video Section */
 
@@ -197,6 +202,7 @@ height: 154px;
     
 
 }
+
 .contact-btn:hover{
     background-color: rgba(12, 82, 148, 0.199);
     color: #141c8a;
